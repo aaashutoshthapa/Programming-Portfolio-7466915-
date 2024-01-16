@@ -6,3 +6,5 @@ and how it is different from the list and tuples and dictionaries
 
 also we hearned about dictionaries too. though dictionaries was bit hard to get used to but after some 
 practice session only then did i get the gist about this topic 
+
+Completed on 20th december
