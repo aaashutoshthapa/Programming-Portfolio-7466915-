@@ -3,3 +3,5 @@ topic than that of the list and tuple. and we also did lot od ecercise and pract
 though the topic of tuple was bit hard to understand as the values are always packed and had to had to be changed into list and do futther do sloution.
 
 But on the exercise we did the solutions of functions 
+
+Completed on: 12th december
