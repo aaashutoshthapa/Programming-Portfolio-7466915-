@@ -21,7 +21,7 @@ The program will then calculate the total price based on the provided informatio
 3. Tuesday discount: 50% off if it's Tuesday, otherwise $0.
 4. App discount: 25% off if the customer used the app, otherwise $0.
 
-## __ outputs of rogram are below __
+## __Outputs of Program are Below __
 
 ### 1.  simple order for collection, not on a Tuesday, made over the phone.
 ```
@@ -163,7 +163,7 @@ Delivery cost             +2.50
 GRAND TOTAL:             £37.88
 ```
 
-# _SO THIS COMPLETES TASK 1 WHICH IS PIZZA CALCULATOR _
+# SO THIS COMPLETES TASK 1 WHICH IS PIZZA CALCULATOR 
 
 
 
