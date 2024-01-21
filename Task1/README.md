@@ -1,4 +1,4 @@
-__BPP Pizza Price Calculator__
+<spanstyle="font-size:larger;">__BPP Pizza Price Calculator__</span>
 
 
 
@@ -20,3 +20,5 @@ The program will then calculate the total price based on the provided informatio
 2. Delivery cost: $2.5 if delivery is requested and the number of pizzas is less than 5, otherwise $0.
 3. Tuesday discount: 50% off if it's Tuesday, otherwise $0.
 4. App discount: 25% off if the customer used the app, otherwise $0.
+
+
