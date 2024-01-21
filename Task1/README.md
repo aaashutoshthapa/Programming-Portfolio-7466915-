@@ -1,4 +1,4 @@
-********BPP Pizza Price Calculator********
+********__BPP Pizza Price Calculator__********
 
 **Overview**
 
@@ -14,21 +14,8 @@ Confirmation of App Usage: Enter 'yes' or 'no', or 'y' or 'n' to confirm if the 
 
 The program will then calculate the total price based on the provided information and display a detailed receipt breakdown.
 
-**Functions**
-inp()
-This function retrieves user inputs related to pizza orders and services. It ensures valid inputs for the number of pizzas, delivery preference, confirmation if it's Tuesday, and confirmation of app usage.
-
-delivery_cost(delivery, no_of_pizza)
-Calculates the delivery cost based on the delivery preference and the number of pizzas ordered.
-
-day_discount(day, total_price)
-Calculates the discount amount based on a specified day.
-
-app_discount(app, total_price)
-Calculates the discount amount based on whether the customer used an app for the order.
-
-calculate_total_price(no_of_pizza, delivery, day, app)
-Calculates the total price of a pizza order considering the cost of pizzas, delivery cost, day-based discount, and app-based discount.
-
-display(total_price)
-Displays a detailed breakdown and grand total of the pizza order, including the total pizza price, Tuesday discount, App discount, delivery cost, and the grand total.
+__Notes__
+Pizza cost: $12 per pizza.
+Delivery cost: $2.5 if delivery is requested and the number of pizzas is less than 5, otherwise $0.
+Tuesday discount: 50% off if it's Tuesday, otherwise $0.
+App discount: 25% off if the customer used the app, otherwise $0.
