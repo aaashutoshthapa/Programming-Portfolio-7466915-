@@ -24,7 +24,7 @@ The program will then calculate the total price based on the provided informatio
 ## __ outputs of rogram are below __
 
 ### 1.  simple order for collection, not on a Tuesday, made over the phone.
-
+```
 BPP Pizza Price Calculator
 =========================
 
@@ -40,11 +40,12 @@ Did the customer use the app? n
 
            BPP pizza recipt
 ========================================
-Total pizza price:        48.00
-Tuesday discount:         -0.00
-App discount:             -0.00
-Delivery cost             +0.00
+Total pizza price:        48.00 \n
+Tuesday discount:         -0.00 \n
+App discount:             -0.00 \n
+Delivery cost             +0.00 \n
 ========================================
 GRAND TOTAL:             £48.00
+```
 
 
