@@ -28,7 +28,7 @@ The program will then calculate the total price based on the provided informatio
 BPP Pizza Price Calculator
 =========================
 
- How many pizzas ordered? 4
+How many pizzas ordered? 4
 
 Is delivery required? n
 
@@ -40,12 +40,16 @@ Did the customer use the app? n
 
            BPP pizza recipt
 ========================================
-Total pizza price:        48.00 \n
-Tuesday discount:         -0.00 \n
-App discount:             -0.00 \n
-Delivery cost             +0.00 \n
+Total pizza price:        48.00 
+Tuesday discount:         -0.00 
+App discount:             -0.00 
+Delivery cost             +0.00 
 ========================================
 GRAND TOTAL:             £48.00
 ```
+
+### 2.the same order, with delivery required. So the delivery charge is added in.
+```
+
 
 
