@@ -23,7 +23,7 @@ def inp():
     # It ensures that the input is a non-negative integer and breaks out of the loop when a valid input is provided.
     while True:
         try:
-            no_of_pizza = int(input("\n How many pizzas ordered? "))
+            no_of_pizza = int(input("\nHow many pizzas ordered? "))
             if no_of_pizza < 0:
                 raise ValueError("NegativeError: Input cannot be negative")
             break  
