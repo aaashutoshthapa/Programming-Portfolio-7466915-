@@ -2,7 +2,7 @@
 
 
 
-**Overview**
+## __Overview__
 
 The "BPP Pizza Price Calculator" is a Python program designed to calculate the total price of a pizza order, considering various factors such as the number of pizzas ordered, delivery preferences, discounts for specific days, and discounts for app usage.
 
