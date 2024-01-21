@@ -123,7 +123,7 @@ Delivery cost             +0.00
 GRAND TOTAL:             £18.00
 ```
 
-### 4.  handlling erroneous inpu
+### 5.  handlling erroneous inpu
 ```
 BPP Pizza Price Calculator
 =========================
@@ -162,6 +162,8 @@ Delivery cost             +2.50
 ========================================
 GRAND TOTAL:             £37.88
 ```
+
+# _SO THIS COMPLETES TASK 1 WHICH IS PIZZA CALCULATOR _
 
 
 
