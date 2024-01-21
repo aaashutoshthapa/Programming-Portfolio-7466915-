@@ -1,4 +1,4 @@
-<span style="font-size:60px;">__BPP Pizza Price Calculator__</span>
+#__BPP Pizza Price Calculator__
 
 
 
