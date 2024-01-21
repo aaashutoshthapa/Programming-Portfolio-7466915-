@@ -50,6 +50,120 @@ GRAND TOTAL:             £48.00
 
 ### 2.the same order, with delivery required. So the delivery charge is added in.
 ```
+BPP Pizza Price Calculator
+=========================
+
+How many pizzas ordered? 4
+
+Is delivery required? y
+
+Is it Tuesday? n
+
+Did the customer use the app? n
+
+
+
+           BPP pizza recipt
+========================================
+Total pizza price:        48.00
+Tuesday discount:         -0.00
+App discount:             -0.00
+Delivery cost             +2.50
+========================================
+GRAND TOTAL:             £50.50
+```
+
+### 3.  placed the same order, but used the app to score a 25% discount. Note there is some rounding here
+```
+BPP Pizza Price Calculator
+=========================
+
+How many pizzas ordered? 4
+
+Is delivery required? y
+
+Is it Tuesday? n
+
+Did the customer use the app? y
+
+
+
+           BPP pizza recipt
+========================================
+Total pizza price:        48.00
+Tuesday discount:         -0.00
+App discount:             -9.47
+Delivery cost             +2.50
+========================================
+GRAND TOTAL:             £37.88
+```
+
+### 4. collecting pizzas on a Tuesday, having used the app
+```
+BPP Pizza Price Calculator
+=========================
+
+How many pizzas ordered? 4
+
+Is delivery required? n
+
+Is it Tuesday? y
+
+Did the customer use the app? y
+
+
+
+           BPP pizza recipt
+========================================
+Total pizza price:        48.00
+Tuesday discount:         -9.00
+App discount:             -4.50
+Delivery cost             +0.00
+========================================
+GRAND TOTAL:             £18.00
+```
+
+### 4.  handlling erroneous inpu
+```
+BPP Pizza Price Calculator
+=========================
+
+How many pizzas ordered? -1
+Invalid input. Please enter a valid number
+
+How many pizzas ordered? cheese
+Invalid input. Please enter a valid number
+
+How many pizzas ordered? banana
+Invalid input. Please enter a valid number
+
+How many pizzas ordered? 4
+
+Is delivery required? dunno
+Please enter 'yes', 'no', 'y', 'n',Can be both in capslock or not.
+
+Is delivery required? Y
+
+Is it Tuesday? wednesday
+Please enter 'yes', 'no', 'y', 'n',Can be both in capslock or not.
+
+Is it Tuesday? N
+
+Did the customer use the app? Y
+
+
+
+           BPP pizza recipt
+========================================
+Total pizza price:        48.00
+Tuesday discount:         -0.00
+App discount:             -9.47
+Delivery cost             +2.50
+========================================
+GRAND TOTAL:             £37.88
+```
+
+
 
 
 
