@@ -59,10 +59,40 @@ Total Time in House: 4 hours 5 minutes
 Average visit: 20 minutes
 longest visit: 45 minutes
 Shortest visit: 5 minutes
-![image](https://github.com/aaashutoshthapa/Programming-Portfolio-7466915-/assets/108319245/b12c1e27-3401-423d-a822-344436123a22)
-
 ```
 
+### 3. Output of shelter_2023-08-26
+```
+PS C:\Users\user\OneDrive\Desktop\assignment focp\Task2> python .\task2.py .\shelter_2023-08-26.log
+
+Log File Analysis
+====================
+
+Cat visits: 11
+Other Cats: 45
+Total Time in House: 5 hours 0 minutes
+
+Average visit: 27 minutes
+longest visit: 45 minutes
+Shortest visit: 10 minutes
+```
+
+### 4. Output of shelter_2023-08-27
+```
+PS C:\Users\user\OneDrive\Desktop\assignment focp\Task2> python .\task2.py .\shelter_2023-08-27.log
+
+Log File Analysis
+====================
+
+Cat visits: 13
+Other Cats: 53
+Total Time in House: 5 hours 50 minutes
+
+Average visit: 26 minutes
+longest visit: 50 minutes
+Shortest visit: 5 minutes
+```
+# __SO THIS COMPLETES TASK 2 WHICH HELPS TO FIND THE OUTPUT OF CATS BASED ON VISIT__
 
 
 
