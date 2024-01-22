@@ -12,3 +12,19 @@ To use the script, run it from the command line with the log file as a command-l
 python .\task2.py .\shelter_2023-08-25.log
 ```
 
+## __Command Line Arguments__
+sys.argv[1] (str): The filename of the log file containing cat visit data.
+
+## __Output__
+The script prints the following statistics to the console:
+
+Number of visits by 'OURS' cats.
+Number of visits by 'THEIRS' cats.
+Total time spent in the house in hours and minutes.
+Average visit duration in minutes.
+Longest visit duration in minutes.
+Shortest visit duration in minutes.
+
+
+
+
