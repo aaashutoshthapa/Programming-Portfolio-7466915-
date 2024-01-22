@@ -166,8 +166,21 @@ def main():
     - Shortest visit duration in minutes.
     """
     print_header()  # Print header information
+    if len(sys.argv) < 2:
+        print("Error: Missing filename argument. Please provide the filename of the log file.")
+        return  # Exit the program if there's an error
+
+   
 
     filename = sys.argv[1]  # Get the filename from the command-line argument
+    
+    try:
+        # Attempt to open the file
+        with open(filename, "r"):
+            pass  # Do nothing if the file exists
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found. Please provide a valid log file.")
+        return  # Exit the program if the file is not found
     
     # Read and process time data
     time_data = read_time_data(filename)
