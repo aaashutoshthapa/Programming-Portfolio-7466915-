@@ -25,6 +25,45 @@ Average visit duration in minutes.
 Longest visit duration in minutes.
 Shortest visit duration in minutes.
 
+### 1. Handelling of Command Line Argument
+#### Missing command line argument
+```
+PS C:\Users\user\OneDrive\Desktop\assignment focp\Task2> python .\task2.py
+
+Log File Analysis
+====================
+
+Error: Missing filename argument. Please provide the filename of the log file.
+```
+
+#### Wrong File Name 
+```
+PS C:\Users\user\OneDrive\Desktop\assignment focp\Task2> python .\task2.py file_that_does_not_exist.log
+
+Log File Analysis
+====================
+
+Error: File 'file_that_does_not_exist.log' not found. Please provide a valid log file.
+```
+### 2. Output of shelter_2023-08-25
+```
+PS C:\Users\user\OneDrive\Desktop\assignment focp\Task2> python .\task2.py .\shelter_2023-08-25.log
+
+Log File Analysis
+====================
+
+Cat visits: 12
+Other Cats: 58
+Total Time in House: 4 hours 5 minutes
+
+Average visit: 20 minutes
+longest visit: 45 minutes
+Shortest visit: 5 minutes
+![image](https://github.com/aaashutoshthapa/Programming-Portfolio-7466915-/assets/108319245/b12c1e27-3401-423d-a822-344436123a22)
+
+```
+
+
 
 
 
