@@ -13,26 +13,26 @@ try:
         choice  = input("\python@python-user:~$  ").strip()  # Prompt for user input with a custom shell-like prompt
         
         # Execute the appropriate action based on user's choice
-        if choice == "adduser":
+        if choice.lower() == "adduser":
             adduser.add_user(cmdline_arguent)
         
-        elif choice == "login":
+        elif choice.lower() == "login":
             login.login_credentials(cmdline_arguent)
             
-        elif choice == "passwd":
+        elif choice.lower() == "passwd":
             passwd.change_password(cmdline_arguent)
             
-        elif choice == "deluser":
+        elif choice.lower() == "deluser":
             deluser.delete_user(cmdline_arguent)
             
-        elif choice == "help": # Display information about available commands
+        elif choice.lower() == "help": # Display information about available commands
             print("\n' adduser ' - Creates a new user")
             print("' login ' - Check for login")
             print("' passwd ' - Change Password")
             print("' deluser ' - Deletes existing user")
             print("' exit ' - exits the command center\n")
             
-        elif choice == "exit":
+        elif choice.lower() == "exit":
             break # Break out of the loop to exit the program
         
         else:  
