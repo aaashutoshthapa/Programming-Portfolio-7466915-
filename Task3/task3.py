@@ -19,7 +19,7 @@ try:
         elif choice == "login":
             login.login_credentials(cmdline_arguent)
             
-        elif choice == "changepw":
+        elif choice == "passwd":
             passwd.change_password(cmdline_arguent)
             
         elif choice == "deluser":
@@ -28,7 +28,7 @@ try:
         elif choice == "help": # Display information about available commands
             print("\n' adduser ' - Creates a new user")
             print("' login ' - Check for login")
-            print("' changepw ' - Change Password")
+            print("' passwd ' - Change Password")
             print("' deluser ' - Deletes existing user")
             print("' exit ' - exits the command center\n")
             
