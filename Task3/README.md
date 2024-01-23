@@ -6,10 +6,10 @@ and deleting existing users.
 
 # __Usage__
 
-## __ Requirement __
+##  __ Requirement __
 Make sure you have Python installed on your system.
 
-## __ Running the Program __
+##  __ Running the Program __
 ```
 python .\task3.py .\passwd.txt  
 ```
