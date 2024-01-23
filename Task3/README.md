@@ -82,5 +82,25 @@ Login Successful! Welcome back ada
 Please check your credentials and try again!!
 ```
 
+### 5. Changing password
+```
+\python@python-user:~$  passwd
+>>>Enter username: ada
+>>>Enter your password:
+>>>Enter new password:
+>>>Re-enter your new password:
+ada your password has been successfully changed.
+\python@python-user:~$
+```
+
+### 6. deleting user
+```
+\python@python-user:~$  deluser
+>>>Enter username: ada
+>>>Enter your password:
+
+ada Deleted Successfully
+
+```
 
 
