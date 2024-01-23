@@ -17,16 +17,17 @@ python .\task3.py .\passwd.txt
 
 ## Available Commands
 
-adduser: Creates a new user.
-login:   Checks for login credentials.
-passwd:  Changes the password for an existing user.
-deluser: Deletes an existing user.
-help:    Displays information about available commands.
-exit:    Exits the command center.
+1. adduser: Creates a new user.
+2. login:   Checks for login credentials.
+3. passwd:  Changes the password for an existing user.
+4. deluser: Deletes an existing user.
+5. help:    Displays information about available commands.
+6. exit:    Exits the command center.
 
 ## Notes
 
 This program uses a simple custom shell-like prompt for user interaction.
+
 Make sure to follow the correct syntax and provide the required input when prompted.
 
 
